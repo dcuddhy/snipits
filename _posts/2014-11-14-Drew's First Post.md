@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Drew's First Post
-desc: This is the post that Drew wrote before any other post.  Impressive.
+title: Steven Turek
+desc: Senior Ruby Developer
 proj-url: https://www.drewcuddhy.com
 proj-num: 04
 img: <img src="images/post_images/9232183203_859067da50.jpg" >

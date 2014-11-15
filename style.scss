@@ -62,11 +62,11 @@ h1 {
 }
 
 #home .post {
-  width: 220px;
+  width: 270px;
   float: left;
   vertical-align: top;
-  margin: 0 20px 0 0;
-  height: 360px;
+  margin: 0 25px 0 25px;
+  height: 320px;
   overflow: hidden;
   @include mobile {
     margin: 0 20px;
@@ -75,10 +75,10 @@ h1 {
 }
 
 #home .post h1 {
-  font-size: 24px;
-  line-height: 1.2;
-  min-height: 60px;
-  margin: 0 0 12px;
+  font-size: 18px;
+  line-height: 1.0;
+  min-height: 20px;
+  margin: 0 0 -10px;
   letter-spacing: normal;
   font-weight: 700;
 }

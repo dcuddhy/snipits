@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Mollis Offendit In Mea
-desc: Ex bonorum propriae ius, has id case habeo legimus, decore honestatis est ut.
+title: Dan Mello
+desc: Junior GO Developer
 proj-url: https://github.com/femmebot/jekyll-grid
 proj-num: 04
 img: <img src="images/post_images/323207352_99cfa642d7.jpg" >

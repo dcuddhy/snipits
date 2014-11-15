@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Another Project Title
-desc: Another excerpt or project description goes here
+title: McCartney Bohn
+desc: Junior iOS Developer
 proj-url: https://github.com/femmebot/jekyll-grid
 proj-num: 02
 img: <img src="images/post_images/2582484206_bfde5d4d23.jpg" >

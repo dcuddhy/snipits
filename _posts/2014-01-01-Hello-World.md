@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hello World
-desc: Brief excerpt or project description goes here and looks like this
+title: Steve Prill
+desc: Senior JavaScript Developer
 proj-url: https://github.com/femmebot/jekyll-grid
 proj-num: 01
 img: <img src="images/post_images/15110783274_d2c0c2034d_z.jpg" >

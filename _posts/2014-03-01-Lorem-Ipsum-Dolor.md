@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Lorem Ipsum Quid Nostrud
-desc: Te nec mundi mandamus voluptatum. Adhuc nostro id sit, at erat liberavisse eum
+title: David Middleton
+desc: Touring School Student
 proj-url: https://github.com/femmebot/jekyll-grid
 proj-num: 03
 img: <img src="images/post_images/2751332212_c94821bc40.jpg" >
