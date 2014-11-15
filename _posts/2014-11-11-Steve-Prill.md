@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Dan Mello
-desc: Junior GO Developer
+title: Steve Prill
+desc: Senior JavaScript Developer
 proj-url: https://github.com/femmebot/jekyll-grid
-proj-num: 04
-img: <img src="images/post_images/323207352_99cfa642d7.jpg" >
+proj-num: 01
+img: <img src="images/post_images/2582484206_bfde5d4d23.jpg" style="width:270px;height:180px" >
 ---
 
 

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Steve Prill
-desc: Senior JavaScript Developer
+title: Lark Flemming
+desc: Senior Javascript Developer
 proj-url: https://github.com/femmebot/jekyll-grid
-proj-num: 01
-img: <img src="images/post_images/15110783274_d2c0c2034d_z.jpg" >
+proj-num: 03
+img: <img src="images/post_images/drew_cuddhy.jpg" style="width:270px;height:180px" >
 ---
 
 

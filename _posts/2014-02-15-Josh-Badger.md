@@ -1,10 +1,10 @@
 ---
 layout: post
-title: David Middleton
-desc: Touring School Student
+title: Josh Badger
+desc: Junior Python Developer
 proj-url: https://github.com/femmebot/jekyll-grid
 proj-num: 03
-img: <img src="images/post_images/2751332212_c94821bc40.jpg" >
+img: <img src="images/post_images/2582484206_bfde5d4d23.jpg" style="width:270px;height:180px" >
 ---
 
 

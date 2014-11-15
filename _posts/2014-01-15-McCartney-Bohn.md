@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Drew Cuddhy
-desc: gSchool Student
-proj-url: https://www.drewcuddhy.com
-proj-num: 04
+title: McCartney Bohn
+desc: Junior iOS Developer
+proj-url: https://github.com/femmebot/jekyll-grid
+proj-num: 02
 img: <img src="images/post_images/9232183203_859067da50.jpg" style="width:270px;height:180px" >
 ---
 

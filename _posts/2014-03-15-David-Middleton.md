@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Steven Turek
-desc: Senior Ruby Developer
-proj-url: https://www.drewcuddhy.com
-proj-num: 04
-img: <img src="images/post_images/9232183203_859067da50.jpg" >
+title: David Middleton
+desc: Touring School Student
+proj-url: https://github.com/femmebot/jekyll-grid
+proj-num: 03
+img: <img src="images/post_images/9232183203_859067da50.jpg" style="width:270px;height:180px" >
 ---
 
 

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: McCartney Bohn
-desc: Junior iOS Developer
-proj-url: https://github.com/femmebot/jekyll-grid
-proj-num: 02
-img: <img src="images/post_images/2582484206_bfde5d4d23.jpg" >
+title: Steven Turek
+desc: Senior Ruby Developer
+proj-url: https://www.drewcuddhy.com
+proj-num: 04
+img: <img src="images/post_images/drew_cuddhy.jpg" style="width:270px;height:180px" >
 ---
 
 
