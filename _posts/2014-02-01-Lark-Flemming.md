@@ -11,7 +11,7 @@ img: <img src="images/post_images/drew_cuddhy.jpg" style="width:270px;height:180
 
 ## H2 Heading Looks Like This
 
-Sample paragraph goes here and looks like this. Bacon ipsum dolor sit amet turducken meatloaf boudin pork loin meatball biltong, fatback capicola turkey pork chop. Short ribs boudin landjaeger kevin brisket ground round.
+Sample paragrapha goes here and looks like this. Bacon ipsum dolor sit amet turducken meatloaf boudin pork loin meatball biltong, fatback capicola turkey pork chop. Short ribs boudin landjaeger kevin brisket ground round.
 
 ### H3 Heading Looks Like This
 
