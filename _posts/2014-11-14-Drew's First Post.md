@@ -4,13 +4,14 @@ title: Drew's First Post
 desc: This is the post that Drew wrote before any other post.  Impressive.
 proj-url: https://www.drewcuddhy.com
 proj-num: 04
+img: <img src="images/post_images/6546085159_6783551d2e_z.jpg" >
 ---
 
 
 
 ## H2 Heading Looks Like This
 
-Sample paragraph goes here and looks like this. Bacon ipsum dolor sit amet turducken meatloaf boudin pork loin meatball biltong, fatback capicola turkey pork chop. Short ribs boudin landjaeger kevin brisket ground round. 
+Sample paragraph goes here and looks like this. Bacon ipsum dolor sit amet turducken meatloaf boudin pork loin meatball biltong, fatback capicola turkey pork chop. Short ribs boudin landjaeger kevin brisket ground round.
 
 ### H3 Heading Looks Like This
 

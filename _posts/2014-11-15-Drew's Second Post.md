@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Drew's Second Post!!!
-desc: This is the post that Drew wrote after the post he wrote before any other post.  Impressive.
+title: Drew Cuddhy
+desc: gSchool Student
 proj-url: https://www.drewcuddhy.com
 proj-num: 04
+img: <img src="images/post_images/drew_cuddhy.jpg" >
 ---
 
 
