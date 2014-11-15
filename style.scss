@@ -31,6 +31,15 @@ body {
   width: 100%;
 }
 
+.container-top {
+  margin: 0 auto;
+  max-width: 910px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkGray;
@@ -88,8 +97,7 @@ h1 {
   line-height: 74px;
   font-weight: 200;
   max-width: 600px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px 0  15px 30px;
   letter-spacing: -.03em;
   a {
     color: $darkGray;
@@ -122,11 +130,11 @@ p {
 #home p.site-description {
   font-size: 48px;
   font-weight: 200;
-  color: $darkGray;
+  color: $midnightBlue;
   line-height: 48px;
   max-width: 800px;
-  margin-bottom: 50px;
-  margin-left: 80px;
+  margin-bottom: 30px;
+  margin-left: 110px;
   @include mobile {
     margin: 30px 20px 60px 20px;
   }
@@ -224,7 +232,6 @@ img {
 }
 .masthead {
   padding: 20px 0 0;
-  border-bottom: 1px solid $lightGray;
   @include mobile {
     text-align: center;
   }
@@ -281,6 +288,7 @@ nav {
   margin-top: 23px;
   font-family: $helveticaNeue;
   font-size: 12px;
+}
 
   @include mobile {
     float: none;
@@ -368,6 +376,31 @@ article {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.white-box{
+  background-color: $white;
+  border-top: 1px solid $darkGrey;
+  border-right: 1px solid $darkGrey;
+  border-bottom: 1px solid $darkGrey;
+  border-left: 1px solid $darkGrey;
+}
+
+.dark-grey-box{
+  background-color: $darkGrey;
+  border-top: 1px solid $darkGrey;
+  border-right: 1px solid $darkGrey;
+  border-bottom: 1px solid $darkGrey;
+  border-left: 1px solid $darkGrey;
+  width: 100px;
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  line-height: 70px;
+  font-weight: 200;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  letter-spacing: -.03em;
 }
 
 

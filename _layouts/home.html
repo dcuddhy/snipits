@@ -27,10 +27,20 @@
     {% include masthead.html %}
 
 
-    <div class="container">
+
+<table class="container-top">
+  <tr>
+    <td class="dark-grey-box">1<br>2</td>
+    <td class="white-box">
       <h1 class="site-name"><a href="/">{{ site.name }}</a></h1>
       <p class="site-description">{{ site.description }}</p>
-    </div>
+    </td>
+  </tr>
+</table>
+
+
+
+<br><br>
 
     <div id="main" role="main" class="container">
       {{ content }}
