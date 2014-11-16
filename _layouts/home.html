@@ -26,21 +26,17 @@
 
     {% include masthead.html %}
 
+    <table class="container-top white-box">
+      <tr>
+        <div>
+          <td class="dark-grey-box">1<br>2</td>
+          <td><h1 class="site-name"><a href="/"> {{ site.name }} </a></h1>
+          <p class="site-description">{{ site.description }}</p></td>
+        </div>
+      </tr>
+    </table>
 
-
-<table class="container-top">
-  <tr>
-    <td class="dark-grey-box">1<br>2</td>
-    <td class="white-box">
-      <h1 class="site-name"><a href="/">{{ site.name }}</a></h1>
-      <p class="site-description">{{ site.description }}</p>
-    </td>
-  </tr>
-</table>
-
-
-
-<br><br>
+<br>yes<br>
 
     <div id="main" role="main" class="container">
       {{ content }}
