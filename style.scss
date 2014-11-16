@@ -81,12 +81,12 @@ h1 {
   width: 270px;
   float: left;
   vertical-align: top;
-  margin: 0 25px 0 25px;
-  height: 305px;
+  margin: 0 25px 50px 25px;
+  height: 255px;
   overflow: hidden;
   @include mobile {
     margin: 0 20px;
-    width: 300px;
+    width: 270px;
   }
 }
 
@@ -392,6 +392,10 @@ footer {
   border-right: 1px solid $darkGrey;
   border-bottom: 1px solid $darkGrey;
   border-left: 1px solid $darkGrey;
+}
+
+.white-box-article{
+  background-color:$white;
 }
 
 .dark-grey-box{
