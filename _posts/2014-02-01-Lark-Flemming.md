@@ -5,6 +5,7 @@ desc: Senior Javascript Developer
 proj-url: https://github.com/femmebot/jekyll-grid
 proj-num: 03
 img: <img src="images/post_images/drew_cuddhy.jpg" style="width:270px;height:180px" >
+color: <div class= "orange"> &nbsp; </div>
 ---
 
 

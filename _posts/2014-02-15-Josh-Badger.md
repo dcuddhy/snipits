@@ -5,6 +5,7 @@ desc: Junior Python Developer
 proj-url: https://github.com/femmebot/jekyll-grid
 proj-num: 03
 img: <img src="images/post_images/2582484206_bfde5d4d23.jpg" style="width:270px;height:180px" >
+color: <div class= "midnightBlue"> &nbsp; </div>
 ---
 
 

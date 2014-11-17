@@ -5,6 +5,7 @@ desc: Junior iOS Developer
 proj-url: https://github.com/femmebot/jekyll-grid
 proj-num: 02
 img: <img src="images/post_images/9232183203_859067da50.jpg" style="width:270px;height:180px" >
+color: <div class= "darkTeal"> &nbsp; </div>
 ---
 
 
