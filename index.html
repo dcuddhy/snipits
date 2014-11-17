@@ -5,7 +5,9 @@ layout: home
 <div class="posts clearfix">
   {% for post in site.posts %}
     <article class="post white-box-article">
-      <div>{{post.img}} </div>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <div>{{post.img}} </div>
+      </a>
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <div class="entry">

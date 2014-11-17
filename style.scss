@@ -21,7 +21,7 @@ html {
 body {
 	background: $bgGrey;
   font: 16px/23px $helveticaNeue;
-  color: $gray;
+  color: $darkGrey;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -49,7 +49,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkGray;
+  color: $darkGrey;
   font-weight: 700;
   line-height: 1.25;
   margin: 0;
@@ -128,7 +128,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $darkGrey;
   margin: 36px 0 9px;
 }
 
@@ -149,7 +149,7 @@ p {
   }
 }
 #home .entry p {
-  color: $darkGray;
+  color: $darkGrey;
   margin: 10px 8px 10px 8px;
 
 }
@@ -191,13 +191,13 @@ em, i {
 
 strong, b {
   font-weight: bold;
-  color: $darkGray;
+  color: $darkGrey;
 }
 
 blockquote {
   margin: 1.8em .8em;
   padding: 0.1em 1em;
-  background-color: $xlightGray;
+  background-color: $lightGrey;
   font-family: $helveticaNeue;
 }
 
@@ -207,7 +207,7 @@ img {
 
 .date {
   font-size: 60%;
-  color: $gray;
+  color: $darkGrey;
 }
 
 // Specify the color of the selection
@@ -275,7 +275,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $darkGrey;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -306,7 +306,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $gray;
+    color: $darkGrey;
     width: 225px;
     display: block;
     float: right;
@@ -315,7 +315,7 @@ nav {
       display: inline-block;
       float: none;
       margin: 0 10px;
-      color: $darkGray;
+      color: $darkGrey;
       width: 150px;
       text-align: left;
     }
@@ -330,16 +330,17 @@ article {
 
 .post {
   blockquote {
+    background-color: $white;
     margin: 1.8em .8em;
-    border-left: 1px dotted $gray;
+    border-left: 1px dotted $grey;
     padding: 0.1em 1em;
-    color: $gray;
+    color: $grey;
   }
 
   .eyebrow {
     font-size: 12px;
     line-height: 30px;
-    color: $gray;
+    color: $grey;
     padding-top: 6px;
     margin-bottom: 6px;
     border-top: 20px solid $deepPurple;
@@ -351,7 +352,7 @@ article {
 
   .small-link {
     font-size: 11px;
-    color: $medGray;
+    color: $darkGrey;
     display: block;
       &:hover {
         color: $brickRed;
@@ -359,7 +360,7 @@ article {
   }
   .large-link {
     font-size: 20px;
-    color: $darkGray;
+    color: $darkGrey;
     font-weight: 500;
   }
   .primary-link {
@@ -388,14 +389,28 @@ footer {
 
 .white-box{
   background-color:$white;
-  border-top: 1px solid $darkGrey;
-  border-right: 1px solid $darkGrey;
-  border-bottom: 1px solid $darkGrey;
-  border-left: 1px solid $darkGrey;
+  border-top: 1px solid $lightGrey;
+  border-right: 1px solid $lightGrey;
+  border-bottom: 1px solid $lightGrey;
+  border-left: 1px solid $lightGrey;
 }
 
 .white-box-article{
   background-color:$white;
+  color: $darkGrey;
+  font-weight: 200;
+}
+
+.white-box-article{
+
+  a{
+    color: $darkGrey;
+    font-weight: 200;
+  }
+  a:hover{
+    color: $darkGrey;
+    font-weight: 200;
+  }
 }
 
 .dark-grey-box{
@@ -413,6 +428,13 @@ footer {
   max-width: 800px;
   margin-bottom: 50px;
   margin-left: 80px;
+}
+
+a {
+ span{
+    color: $darkGrey;
+    text-decoration: none;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
