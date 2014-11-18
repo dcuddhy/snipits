@@ -20,22 +20,30 @@ layout: default
       </div>
     </td>
     <td>
-        <div class="lightGrey">
-          Dan Mello<br>
-          This is content content
-        </div>
-        <div class="white">
-          Mac Bohn<br>
-          This is content content
-        </div>
-        <div class="lightGrey">
-          Kendra Dodds<br>
-          This is content content
-        </div>
-        <div class="white">
-          David Middleton<br>
-          This is content content
-        </div>
+
+
+
+<table>
+
+      <div class="widget-wrapper">
+        <h3 class="widget-title">Recent Posts</h3>
+
+        {% for post in site.posts limit:10 %}
+      <tr>
+            <td>
+          <a href="{{ site.baseurl }}{{post.url}}">
+              {{ post.title }}
+            </td>
+            <td>
+              {{post.color}}
+            </td>
+            </a>
+      </tr>
+        {% endfor %}
+      </div>
+</table>
+
+
     </td>
   </tr>
 </table>
