@@ -450,16 +450,26 @@ a {
   background-color: $mustard;
 }
 .deepPurple{
-  background-color: $deepPurple
+  background-color: $deepPurple;
 }
 .midnightBlue{
-  background-color: $midnightBlue
+  background-color: $midnightBlue;
 }
 .darkGrey{
-  background-color: $darkGrey
+  background-color: $darkGrey;
 }
 
+.lightGrey{
+  background-color: $lightGrey;
+}
 
+.white{
+  background-color: $white;
+}
+
+.entry{
+  width: 600px;
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

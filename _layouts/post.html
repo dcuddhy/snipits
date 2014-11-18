@@ -3,14 +3,42 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
-  <a href="{{ page.proj-url }}" class="large-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a> 
-  <div class="date">Posted {{ page.date | date: "%B %e, %Y" }}</div>
-
-
-  <div class="entry">
-    {{ content }}
+  <div class="white-box">
+    <br><br><br><br><br><br><br><br>
+   {{ page.img }} <br>
   </div>
+  <br>
+  {{ page.title }}
+  <div class="date">Posted {{ page.date | date: "%B %e, %Y" }}</div>
+  <a href="{{ page.proj-url }}" class="large-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a>
+
+<table>
+  <tr>
+    <td>
+      <div class="entry">
+        {{ content }}
+      </div>
+    </td>
+    <td>
+        <div class="lightGrey">
+          Dan Mello<br>
+          This is content content
+        </div>
+        <div class="white">
+          Mac Bohn<br>
+          This is content content
+        </div>
+        <div class="lightGrey">
+          Kendra Dodds<br>
+          This is content content
+        </div>
+        <div class="white">
+          David Middleton<br>
+          This is content content
+        </div>
+    </td>
+  </tr>
+</table>
 
 
   {% include disqus.html disqus_identifier=page.disqus_identifier %}

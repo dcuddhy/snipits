@@ -4,7 +4,7 @@ title: Drew Cuddhy
 desc: gSchool Student
 proj-url: https://www.drewcuddhy.com
 proj-num: 04
-img: <img src="images/post_images/9232183203_859067da50.jpg" style="width:270px;height:180px" >
+img: <img src="../images/post_images/9232183203_859067da50.jpg" style="width:270px;height:180px" >
 color: <div class= "orange"> &nbsp; </div>
 ---
 
