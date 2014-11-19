@@ -387,6 +387,8 @@ footer {
   text-align: center;
 }
 
+// Drews custom code
+
 .white-box{
   background-color:$white;
   border-top: 1px solid $lightGrey;
@@ -469,14 +471,17 @@ a {
 
 .entry{
   width: 600px;
+  margin-right: 20px;
 }
 
 .widget-wrapper{
-  margin-left: 80px;
-  padding-left: 10px;
-  width: 310px;
-  background-color: $white;
+    margin-left: 80px;
+    padding-left: 10px;
+    width: 310px;
+    background-color: $white;
 }
+
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

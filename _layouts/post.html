@@ -4,8 +4,7 @@ layout: default
 
 <article class="post">
   <div class="white-box">
-    <br><br><br><br><br><br><br><br>
-   {{ page.img }} <br>
+   {{ page.img }}
   </div>
   <br>
   {{ page.title }}
@@ -31,11 +30,12 @@ layout: default
         {% for post in site.posts limit:10 %}
       <tr>
             <td class="widget-wrapper">
+
           <a href="{{ site.baseurl }}{{post.url}}">
               {{ post.title }}<br>
               {{ post.desc }}
             </td>
-            <td>
+            <td width="30px">
               {{post.color}}
               {{post.color}}
             </td>
