@@ -25,16 +25,18 @@ layout: default
 
 <table>
 
-      <div class="widget-wrapper">
+      <div>
         <h3 class="widget-title">Recent Posts</h3>
 
         {% for post in site.posts limit:10 %}
       <tr>
-            <td>
+            <td class="widget-wrapper">
           <a href="{{ site.baseurl }}{{post.url}}">
-              {{ post.title }}
+              {{ post.title }}<br>
+              {{ post.desc }}
             </td>
             <td>
+              {{post.color}}
               {{post.color}}
             </td>
             </a>
