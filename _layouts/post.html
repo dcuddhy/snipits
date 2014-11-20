@@ -4,7 +4,16 @@ layout: default
 
 <article class="post">
   <div class="white-box">
-   {{ page.img }}
+    <table>
+    <tr>
+      <td>
+       {{ page.img }}
+      </td>
+      <td>
+        {{page.stats}}
+      </td>
+    </tr>
+    </table>
   </div>
   <br>
   {{ page.title }}

@@ -7,6 +7,7 @@ proj-num: 04
 thumb: <img src="../images/post_images/9232183203_859067da50.jpg" style="width:270px;height:180px">
 img: <img src="../images/post_thumbs/9232183203_859067da50.jpg" style="width:600px;height:400px">
 color: <div class= "orange"> &nbsp; </div>
+stats: works @ galvanize <br> 6mo experience <br> www.drewcuddhy.com
 ---
 
 
