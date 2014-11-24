@@ -396,6 +396,7 @@ footer {
   border-right: 1px solid $lightGrey;
   border-bottom: 1px solid $lightGrey;
   border-left: 1px solid $lightGrey;
+  padding: 0 0 0 0;
 }
 
 .white-box-article{
@@ -482,6 +483,15 @@ a {
     background-color: $white;
 }
 
+.stat-card{
+  float: right;
+  margin: 10px 10px 10px 10px;
+}
+
+.stat-img{
+  float: left;
+  margin: 0 0 -6px 0;
+}
 
 
 
