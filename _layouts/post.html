@@ -10,17 +10,22 @@ layout: default
        {{ page.img }}
          </p>
       <p class="stat-card">
+        <Strong>
+          {{ page.title }}
+        </Strong>
+        <br>
+        {{ page.desc }}
+        <br><br>
         {{page.stats}}
       </p>
     </td>
     </table>
   </div>
-  <br>
-  {{ page.title }}
+  <Strong>{{ page.title }}</Strong>
   <div class="date">Posted {{ page.date | date: "%B %e, %Y" }}</div>
-  <a href="{{ page.proj-url }}" class="large-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a>
+  <!-- <a href="{{ page.proj-url }}" class="large-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a> -->
 
-<table>
+<table class="post-table">
   <tr>
     <td>
       <div class="entry">
@@ -30,15 +35,14 @@ layout: default
     <td>
 
 
-
 <table>
 
       <div>
         <h3 class="widget-title">Recent Posts</h3>
 
         {% for post in site.posts limit:10 %}
-      <tr>
-            <td class="widget-wrapper">
+      <tr class="widget-wrapper">
+            <td class="widget-col" >
 
           <a href="{{ site.baseurl }}{{post.url}}">
               {{ post.title }}<br>

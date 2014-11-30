@@ -483,6 +483,19 @@ a {
     background-color: $white;
 }
 
+.widget-col{
+  margin-left: 80px;
+  padding-left: 10px;
+  width: 310px;
+}
+
+
+tr:nth-child(even) {
+  background-color: $lightGrey;
+}
+
+
+
 .stat-card{
   float: right;
   margin: 10px 10px 10px 10px;
@@ -494,8 +507,9 @@ a {
 }
 
 
-
-
+.post-table{
+  margin: -40px 0 0 0;
+}
 
 
 
