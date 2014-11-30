@@ -13,8 +13,9 @@ layout: default
         <Strong>
           {{ page.title }}
         </Strong>
+         - {{ page.desc }}
         <br>
-        {{ page.desc }}
+        {{ page.city }} - {{ page.date | date: "%b. %e, %Y" }}
         <br><br>
         {{page.stats}}
       </p>
