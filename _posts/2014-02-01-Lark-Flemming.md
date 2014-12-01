@@ -10,8 +10,8 @@ git: <i class="fa fa-github">  dcuddhy </i>
 in: <i class="fa fa-linkedin-square"> dcuddhy </i>
 twit: <i class="fa fa-twitter">  dcuddhy </i>
 link: <i class="fa fa-link">  drewcuddhy.com </i>
-thumb: <img src="../images/post_images/drew_cuddhy.jpg" style="width:270px;height:180px" >
-img: <img src="../images/post_images/drew_cuddhy.jpg" style="width:600px;height:400px" >
+thumb: <img src="../images/post_images/2582484206_bfde5d4d23.jpg" style="width:270px;height:180px" >
+img: <img src="../images/post_images/2582484206_bfde5d4d23.jpg" style="width:600px;height:400px" >
 color: <div class= "orange"> &nbsp; </div>
 ---
 
