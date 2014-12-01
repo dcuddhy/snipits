@@ -1,9 +1,15 @@
 ---
+proj-num: 03
 layout: post
 title: Lark Flemming
 desc: Senior Javascript Developer
+city: Boulder, CO
 proj-url: https://github.com/femmebot/jekyll-grid
-proj-num: 03
+about: Full Stack Web Developer. Student @gSchool.<br> Camera Enthusiast. Lover of guacamole. <br> Full Stack Web Developer. Student @gSchool.<br> Camera Enthusiast. Lover of guacamole. <br> Full Stack Web Developer. Student @gSchool.<br> Camera Enthusiast. Lover of guacamole.
+git: <i class="fa fa-github">  dcuddhy </i>
+in: <i class="fa fa-linkedin-square"> dcuddhy </i>
+twit: <i class="fa fa-twitter">  dcuddhy </i>
+link: <i class="fa fa-link">  drewcuddhy.com </i>
 thumb: <img src="../images/post_images/drew_cuddhy.jpg" style="width:270px;height:180px" >
 img: <img src="../images/post_images/drew_cuddhy.jpg" style="width:600px;height:400px" >
 color: <div class= "orange"> &nbsp; </div>

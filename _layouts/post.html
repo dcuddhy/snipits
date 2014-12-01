@@ -13,11 +13,22 @@ layout: default
         <Strong>
           {{ page.title }}
         </Strong>
-         - {{ page.desc }}
         <br>
-        {{ page.city }} - {{ page.date | date: "%b. %e, %Y" }}
+          {{ page.desc }}
+        <br>
+          {{ page.city }}
+        <br>
+          {{ page.date | date: "%b. %e, %Y" }}
         <br><br>
-        {{page.stats}}
+          {{ page.about }}
+        <br><br>
+          {{page.git}}
+        <br>
+          {{page.in}}
+        <br>
+          {{page.twit}}
+        <br>
+          {{page.link}}
       </p>
     </td>
     </table>

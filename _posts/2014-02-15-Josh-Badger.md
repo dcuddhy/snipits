@@ -1,9 +1,15 @@
 ---
+proj-num: 03
 layout: post
 title: Josh Badger
 desc: Junior Python Developer
+city: Boulder, CO
 proj-url: https://github.com/femmebot/jekyll-grid
-proj-num: 03
+about: rider of bikes, tinkerer of things. rider of bikes, <br> tinkerer of things. rider of bikes, tinkerer of <br> things. rider of bikes, rider of bikes, tinkerer <br> of things. rider of bikes, <br> tinkerer of things. rider of bikes, tinkerer of <br> things. rider of bikes, rider of bikes, tinkerer
+git: <i class="fa fa-github">  dcuddhy </i>
+in: <i class="fa fa-linkedin-square"> dcuddhy </i>
+twit: <i class="fa fa-twitter">  dcuddhy </i>
+link: <i class="fa fa-link">  drewcuddhy.com </i>
 thumb: <img src="../images/post_images/2582484206_bfde5d4d23.jpg" style="width:270px;height:180px" >
 img: <img src="../images/post_images/2582484206_bfde5d4d23.jpg" style="width:600px;height:400px" >
 color: <div class= "midnightBlue"> &nbsp; </div>

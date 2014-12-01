@@ -1,9 +1,15 @@
 ---
+proj-num: 02
 layout: post
 title: McCartney Bohn
 desc: Junior iOS Developer
+city: Boulder, CO
 proj-url: https://github.com/femmebot/jekyll-grid
-proj-num: 02
+about: Full Stack Web Developer. Student @gSchool.<br> Camera Enthusiast. Lover of guacamole. <br> Full Stack Web Developer. Student @gSchool.<br> Camera Enthusiast. Lover of guacamole. <br> Full Stack Web Developer. Student @gSchool.<br> Camera Enthusiast. Lover of guacamole.
+git: <i class="fa fa-github">  dcuddhy </i>
+in: <i class="fa fa-linkedin-square"> dcuddhy </i>
+twit: <i class="fa fa-twitter">  dcuddhy </i>
+link: <i class="fa fa-link">  drewcuddhy.com </i>
 thumb: <img src="../images/post_images/9232183203_859067da50.jpg" style="width:270px;height:180px" >
 img: <img src="../images/post_images/9232183203_859067da50.jpg" style="width:600px;height:400px" >
 color: <div class= "darkTeal"> &nbsp; </div>
