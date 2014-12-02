@@ -245,9 +245,6 @@ img {
   @include mobile {
     text-align: center;
   }
-  a {
-    color: $brickRed;
-  }
   @include mobile {
     margin: 30px 20px 0;
   }
@@ -378,15 +375,17 @@ article {
   .spacer {
     padding-right: 8px;
     margin-right: 8px;
-    border-right: 1px solid $lightGray;
+    border-right: 1px solid $bgGrey;
   }
 }
+
+
+
 
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $bgGrey;
 }
 
 footer {
@@ -418,7 +417,7 @@ footer {
     font-weight: 200;
   }
   a:hover{
-    color: $darkGrey;
+    color: $brickRed;
     font-weight: 200;
   }
 }
@@ -446,6 +445,14 @@ a {
     text-decoration: none;
   }
 }
+
+.brickRed-text{
+  color: $brickRed;
+}
+.darkGrey-text{
+  color: $darkGrey;
+}
+
 
 .brickRed{
   background-color: $brickRed;
