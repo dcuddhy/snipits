@@ -5,7 +5,7 @@ title: Josh Badger
 desc: Junior Python Developer
 city: Boulder, CO
 proj-url: https://github.com/femmebot/jekyll-grid
-about: rider of bikes, tinkerer of things. rider of bikes, <br> tinkerer of things. rider of bikes, tinkerer of <br> things. rider of bikes, rider of bikes, tinkerer <br> of things. rider of bikes, <br> tinkerer of things. rider of bikes, tinkerer of <br> things. rider of bikes, rider of bikes, tinkerer
+about: Full Stack Web Developer. Student <br>@gSchool. Camera Enthusiast. Lover<br> of guacamole. Full Stack Web <br>Developer. Student @gSchool.<br> Camera Enthusiast. Lover of guac.<br>  Full Stack Web Developer.
 git: <i class="fa fa-github">  dcuddhy </i>
 in: <i class="fa fa-linkedin-square"> dcuddhy </i>
 twit: <i class="fa fa-twitter">  dcuddhy </i>

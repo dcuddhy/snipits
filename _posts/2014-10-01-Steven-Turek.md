@@ -5,7 +5,7 @@ title: Steven Turek
 desc: Senior Ruby Developer
 city: Boulder, CO
 proj-url: https://www.drewcuddhy.com
-about: Full Stack Web Developer. Student @gSchool.<br> Camera Enthusiast. Lover of guacamole. <br> Full Stack Web Developer. Student @gSchool.<br> Camera Enthusiast. Lover of guacamole. <br> Full Stack Web Developer. Student @gSchool.<br> Camera Enthusiast. Lover of guacamole.
+about: Full Stack Web Developer. Student <br>@gSchool. Camera Enthusiast. Lover<br> of guacamole. Full Stack Web <br>Developer. Student @gSchool.<br> Camera Enthusiast. Lover of guac.<br>  Full Stack Web Developer.
 git: <i class="fa fa-github">  dcuddhy </i>
 in: <i class="fa fa-linkedin-square"> dcuddhy </i>
 twit: <i class="fa fa-twitter">  dcuddhy </i>

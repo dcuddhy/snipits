@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="post">
-  <div class="white-box">
+  <div class="white-box container-top">
     <table>
       <td>
           <p class="stat-img">
@@ -33,8 +33,10 @@ layout: default
     </td>
     </table>
   </div>
+  <div class="container-top">
   <Strong>{{ page.title }}</Strong>
-  <div class="date">Posted {{ page.date | date: "%B %e, %Y" }}</div>
+  </div>
+  <div class="date container-top">Posted {{ page.date | date: "%B %e, %Y" }}</div>
   <!-- <a href="{{ page.proj-url }}" class="large-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a> -->
 
 <table class="post-table">
