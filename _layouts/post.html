@@ -2,81 +2,74 @@
 layout: default
 ---
 
-<article class="post">
-  <div class="white-box container-top">
-    <table>
+  <article class="post">
+    <div class="white-box container-top">
+      <table>
+        <td>
+            <p class="stat-img">
+         {{ page.img }}
+           </p>
+        <p class="stat-card">
+          <Strong>
+            {{ page.title }}
+          </Strong>
+          <br>
+            {{ page.desc }}
+          <br>
+            {{ page.city }}
+          <br>
+            {{ page.date | date: "%b. %e, %Y" }}
+          <br><br>
+            {{ page.about }}
+          <br><br>
+            {{page.git}}
+          <br>
+            {{page.in}}
+          <br>
+            {{page.twit}}
+          <br>
+            {{page.link}}
+        </p>
+      </td>
+      </table>
+    </div>
+    <div class="container-top">
+    <Strong>{{ page.title }}</Strong>
+    </div>
+    <div class="date container-top">Posted {{ page.date | date: "%B %e, %Y" }}</div>
+
+
+  <table class="post-table">
+    <tr>
       <td>
-          <p class="stat-img">
-       {{ page.img }}
-         </p>
-      <p class="stat-card">
-        <Strong>
-          {{ page.title }}
-        </Strong>
-        <br>
-          {{ page.desc }}
-        <br>
-          {{ page.city }}
-        <br>
-          {{ page.date | date: "%b. %e, %Y" }}
-        <br><br>
-          {{ page.about }}
-        <br><br>
-          {{page.git}}
-        <br>
-          {{page.in}}
-        <br>
-          {{page.twit}}
-        <br>
-          {{page.link}}
-      </p>
-    </td>
-    </table>
-  </div>
-  <div class="container-top">
-  <Strong>{{ page.title }}</Strong>
-  </div>
-  <div class="date container-top">Posted {{ page.date | date: "%B %e, %Y" }}</div>
-  <!-- <a href="{{ page.proj-url }}" class="large-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a> -->
+        <div class="entry">
+          {{ content }}
+        </div>
+      </td>
+      <td>
 
-<table class="post-table">
-  <tr>
-    <td>
-      <div class="entry">
-        {{ content }}
-      </div>
-    </td>
-    <td>
-
-
-<table>
-
-      <div>
-        <h3 class="widget-title">Recent Posts</h3>
-
-        {% for post in site.posts limit:10 %}
-      <tr class="widget-wrapper">
+        <table>
+          <h3 class="widget-title">Recent Posts</h3>
+          {% for post in site.posts limit:10 %}
+          <tr class="widget-wrapper">
             <td class="widget-col" >
-
-          <a href="{{ site.baseurl }}{{post.url}}">
+              <a href="{{ site.baseurl }}{{post.url}}">
               {{ post.title }}<br>
               {{ post.desc }}
+              </a>
             </td>
             <td width="30px">
               {{post.color}}
               {{post.color}}
             </td>
-            </a>
-      </tr>
-        {% endfor %}
-      </div>
-</table>
+          </tr>
+          {% endfor %}
+        </table>
+
+      </td>
+    </tr>
+  </table>
 
 
-    </td>
-  </tr>
-</table>
-
-
-  {% include disqus.html disqus_identifier=page.disqus_identifier %}
-</article>
+    {% include disqus.html disqus_identifier=page.disqus_identifier %}
+  </article>

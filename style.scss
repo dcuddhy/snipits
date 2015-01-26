@@ -424,10 +424,7 @@ footer {
 
 .dark-grey-box{
   background-color:$darkGrey;
-  border-top: 1px solid $darkGrey;
-  border-right: 1px solid $darkGrey;
-  border-bottom: 1px solid $darkGrey;
-  border-left: 1px solid $darkGrey;
+  border: 1px solid $darkGrey;
   width: 100px;
   font-size: 48px;
   text-align: center;
@@ -492,10 +489,10 @@ a {
 }
 
 .widget-wrapper{
-    margin-left: 80px;
-    padding-left: 10px;
-    width: 300px;
-    background-color: $white;
+  margin-left: 80px;
+  padding-left: 10px;
+  width: 300px;
+  background-color: $white;
 }
 
 .widget-col{
