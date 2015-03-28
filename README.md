@@ -1,8 +1,12 @@
-jekyll-grid
-=========================
+##<% snipits %>
 
-Jekyll theme ideal for projects; displays posts in a grid
+Jekyll theme. Colorful grid index.  Large photo post page.
 
-View the example: http://femmebot.github.io/jekyll-grid.
+Run locally:
+```
+jekyll s
+```
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+
+Built on top of: http://femmebot.github.io/jekyll-grid.
+Originally created with Jekyll Now: http://github.com/barryclark/jekyll-now
